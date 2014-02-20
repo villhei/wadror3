@@ -1,0 +1,18 @@
+	<table class="table hover">
+		<thead>
+		<tr>
+			<th colspan="2" class="text-right">
+				average
+			</th>
+				</tr>
+			</thead>
+			<tbody>
+			  <% elements.each do |element| %>
+      		<tr>
+      	   <td><%= element.name %></td>
+     		   <td><%= element.average_rating %></td>
+     		   <td></td>
+    		  </tr>
+  			<% end %>
+ 		</tbody>
+	</table>
