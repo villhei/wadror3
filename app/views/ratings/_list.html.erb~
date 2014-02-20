@@ -4,13 +4,15 @@
 			<th colspan="2" class="text-right">
 				average
 			</th>
-			</tr>
+				</tr>
 			</thead>
+			<tbody>
 			  <% elements.each do |element| %>
-      <tr>
-        <td><%= link_to brewery.name, brewery %></td>
-        <td><%= brewery.year %></td>
-        <td></td>
-      </tr>
-  <% end %>
+      		<tr>
+      	   <td><%= element.name %></td>
+     		   <td><%= element.average_rating %></td>
+     		   <td></td>
+    		  </tr>
+  			<% end %>
+ 		</tbody>
 	</table>

@@ -10,7 +10,7 @@
 			  <% elements.each do |element| %>
       		<tr>
       	   <td><%= element.name %></td>
-     		   <td><%= element.average_rating %></td>
+     		   <td><%= round(element.average_rating) %></td>
      		   <td></td>
     		  </tr>
   			<% end %>

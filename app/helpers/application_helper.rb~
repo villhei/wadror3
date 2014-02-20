@@ -7,9 +7,5 @@ module ApplicationHelper
       raw("#{edit} #{del}")
     end
   end
-  
-  def round(param)
-  	number_with_precision(111.2345, precision: 1)
- 	end
 
 end
