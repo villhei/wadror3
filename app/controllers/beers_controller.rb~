@@ -38,6 +38,9 @@ class BeersController < ApplicationController
   # LIST
   def list
   end
+  
+  def nglist
+  end
 
   # POST /beers
   # POST /beers.json

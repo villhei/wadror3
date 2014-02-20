@@ -33,9 +33,4 @@
       <td>{{brewery.beers.amount}}</td>
     </tr>
   </table>
-  
-  <pre>
-   {{ breweries | json }}
-  <pre>
-
 </div>

@@ -46,6 +46,12 @@ gem 'bcrypt-ruby', '~> 3.1.2'
 # Use unicorn as the app server
 # gem 'unicorn'
 
+gem 'bootstrap-sass'
+group :development do
+  gem 'rails_layout'
+end
+
+
 group :development, :test do
   gem 'byebug'
 end
@@ -57,6 +63,8 @@ group :test do
   gem 'launchy'
   gem 'webmock'
   gem 'simplecov', require: false
+  gem 'selenium-webdriver' 
+  gem 'database_cleaner', '< 1.1.0'
 end
 
 gem 'httparty'
