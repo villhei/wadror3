@@ -28,9 +28,6 @@ class BreweriesController < ApplicationController
   # GET /breweries/1/edit
   def edit
   end
-  
-  def nglist
-  end
 
   # POST /breweries
   # POST /breweries.json
