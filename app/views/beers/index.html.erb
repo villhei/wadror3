@@ -2,6 +2,8 @@
 
 <h1>Listing beers</h1>
 
+<% cache 'beerlist', skip_digest: true do %>
+
 <table class="table hover">
   <thead>
     <tr>
@@ -25,6 +27,8 @@
     <% end %>
   </tbody>
 </table>
+
+<% end %>
 
 <br>
 
