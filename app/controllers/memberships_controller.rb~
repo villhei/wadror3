@@ -26,7 +26,7 @@ class MembershipsController < ApplicationController
   	membership = Membership.find(params[:id])
   	membership.update_attribute :active, true
   	
-  	redirect_to :back, notice:"user #{membership.user.username} confirmed"
+  	redirect_to :back, notice:"user #{member.user.username} confirmed"
   end
 
   # POST /memberships

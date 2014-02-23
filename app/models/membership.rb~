@@ -5,5 +5,7 @@ class Membership < ActiveRecord::Base
 
   validates :user, uniqueness: {scope: :beer_club}
   
-  
+  del confirm
+  	active = true
+  end
 end

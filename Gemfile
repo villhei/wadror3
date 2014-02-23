@@ -51,6 +51,7 @@ group :development do
   gem 'rails_layout'
 end
 
+gem 'rack-mini-profiler'
 
 group :development, :test do
   gem 'byebug'

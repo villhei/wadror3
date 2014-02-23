@@ -19,7 +19,7 @@
 <ul>
   <% @beer_club.unconfirmed_memberships.each do |membership| %>
     <li><%= link_to membership.user.username, membership.user %>
-    	<%= link_to "confirm user", confirm_membership_path(membership), method: :post, class: "btn btn-primary" %>
+    	<%= link_to "confirm user", confirm_membership_path(@membership), method: :post, class: "btn btn-primary" %>
     </li>
   <% end %>
 </ul>
